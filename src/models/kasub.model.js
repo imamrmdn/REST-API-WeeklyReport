@@ -33,10 +33,10 @@ const kasubSchema = new Schema({
   },
   tanggal_dibuat: {
     type: Date,
-    default: Date.now()
+    default: Date.now
   }
 });
 
-const Kasub = mongoose.model("Kasub", userSchema);
+const Kasub = mongoose.model("Kasub", kasubSchema);
 
 module.exports = Kasub;
