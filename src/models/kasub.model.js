@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const kasubSchema = new Schema({
-  kasub: {
+  kategori: {
     type: String,
     required: true
   },
