@@ -31,7 +31,7 @@ const kasubSchema = new Schema({
     type: String,
     required: true
   },
-  create_date: {
+  tanggal_dibuat: {
     type: Date,
     default: Date.now()
   }
